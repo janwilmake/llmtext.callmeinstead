@@ -1,13 +1,9 @@
 
-name = "janwilmake_daily-interview"
+name = "llmtext_callmeinstead"
 main = "main.ts"
 compatibility_date = "2025-01-22"
 compatibility_flags = ["nodejs_compat"]
 
 routes = [
-  { pattern = "daily-interview.uithub.com", custom_domain = true }
+  { pattern = "callmeinstead.llmtext.com", custom_domain = true }
 ]
-
-[triggers]
-crons = [ "0 18 * * *" ]
-#
